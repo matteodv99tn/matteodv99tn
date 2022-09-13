@@ -1,4 +1,10 @@
-### Hi there 👋
+# Hi
+Hi, I'm Matteo Dalle Vedove.
+
+I'm currently studying [Mechatronics Engineering](https://offertaformativa.unitn.it/it/lm/mechatronics-engineering) (curricula _Electronics and Robotics_) at the Department of Industrial Engineering of the University of Trento.
+
+I like programming and I feel quite comfortable in the C and C++ languages, mainly focused in numerical application (that is my main field of interest). I also know how to write MATLAB code and I'm currently styding Python.
+
 
 <!--
 **matteodv99tn/matteodv99tn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
