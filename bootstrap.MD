@@ -10,10 +10,19 @@ If the SSH connection to the GitHub account isn't properly setup, follow this st
 ## Clone the repository
 To update configuration files, firstly check to have git installed (`sudo apt install git -y`) and clone the current repository in the `.configfiles` folder as follows:
 ``` 
-git clone git@github.com:matteodv99tn/matteodv99tn.git ~/.configfiles
+git clone git@github.com:matteodv99tn/matteodv99tn.git
 ```
 
-# Bootstrap execution
-Lunch the script `bootstrap.sh` within the terminal; pay attention that script requires administration rights (that will be prompted) and might require interaction with the user for continuing the installation.
+# Installations
+## NVIM
+The script `nvim_install.sh` downloads the latest stable version of _neovim_ and puts it in the `/usr/bin` folder. 
+Furthermore it create simbolic links to the neovim configuration files that can be found in this repository (in order to stay in sync).
+
+To install:
+```sh
+sudo ./nvim_install.sh
+```
+**Note:** make sure `curl` is installed.
+
 
 
