@@ -1,0 +1,47 @@
+name: Sphinx Pages Builder
+# The static web page should be built only on push on the main branch
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sphinx-build:
+
+    # Use a Ubuntu 22.04 runner
+    runs-on: ubuntu-22.04
+
+    # Required to write GitHub pages
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # git is not provided by the ubuntu image by defauls
+      - name: Install git
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git graphviz
+
+      # set-up python 3.10 using the action script
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install python depencencies
+        run: pip3 install sphinx furo sphinx-copybutton myst-parser
+
+      - name: Build docs
+        run: |
+          TZ=UTC sphinx-build . html
+
+      # Use a custom script to deply the html folder for pages
+      # https://github.com/peaceiris/actions-gh-pages
+      - name: Deploy pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./html

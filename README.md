@@ -1,10 +1,14 @@
-# Hi
+# Welcome
 Hi, I'm Matteo Dalle Vedove.
 
-I'm currently studying [Mechatronics Engineering](https://offertaformativa.unitn.it/it/lm/mechatronics-engineering) (curricula _Electronics and Robotics_) at the Department of Industrial Engineering of the University of Trento.
+I'm currently pursuing a PhD in robotics at the University under the supervision of professors Daniele Fontanelli and Matteo Saveriano.
 
-I like programming and I feel quite comfortable in the C and C++ languages, mainly focused in numerical application (that is my main field of interest). I also know how to write MATLAB code and I'm currently styding Python.
+In 2023 I graduated in Mechatronics Engineering, curricula _Electronics and Robotics_, at the Department of Industrial Engineering of the University of Trento with the degree 110 cum laude.
 
+I have lots of passion for programming, especially at low level in both C and C++. I'm mostly focused on numerical and robotics application.
+For robotics purposes I have a good confidence with the ROS2 framework.
+
+Programming-wise, I also know how to code in MATLAB and Python, and I also tried Rust, a language that I really like but unfortunately have no time to deep dive into.
 
 <!--
 **matteodv99tn/matteodv99tn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
