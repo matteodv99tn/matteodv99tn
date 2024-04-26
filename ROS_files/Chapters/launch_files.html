@@ -5,11 +5,11 @@
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
 
-    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+    <!-- Generated with Sphinx 7.3.7 and Furo 2024.01.29 -->
         <title>Launch files - Matteo Dalle Vedove documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
-    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=eafc0fe6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=fd3f3429" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
     
@@ -193,7 +193,7 @@
         </div>
         <article role="main">
           <section id="launch-files">
-<h1>Launch files<a class="headerlink" href="#launch-files" title="Link to this heading">#</a></h1>
+<h1>Launch files<a class="headerlink" href="#launch-files" title="Link to this heading">¶</a></h1>
 <p><code class="docutils literal notranslate"><span class="pre">.launch</span></code> files must be stored inside the <code class="docutils literal notranslate"><span class="pre">launch</span></code> folder that’s placed in the root of each ROS package.</p>
 <p>Launch files are used to easily start new nodes that call scripts of the package.
 If we would like to run the launch file <code class="docutils literal notranslate"><span class="pre">robot_controller.launch</span></code> of the package <code class="docutils literal notranslate"><span class="pre">my_robot_controller</span></code> we would simply run</p>
@@ -205,7 +205,7 @@ If we would like to run the launch file <code class="docutils literal notranslat
 </pre></div>
 </div>
 <section id="structure-of-launch-files">
-<h2>Structure of launch files<a class="headerlink" href="#structure-of-launch-files" title="Link to this heading">#</a></h2>
+<h2>Structure of launch files<a class="headerlink" href="#structure-of-launch-files" title="Link to this heading">¶</a></h2>
 <p>Launch files are essentially <code class="docutils literal notranslate"><span class="pre">.xml</span></code>. A simple example to start a node based on the python library is:</p>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;launch&gt;</span>
 <span class="w">    </span><span class="nt">&lt;node</span><span class="w"> </span><span class="na">pkg =</span><span class="w"> </span><span class="s">&quot;my_robot_controller&quot;</span><span class="w"> </span><span class="na">type =</span><span class="w"> </span><span class="s">&quot;impedance_control.py&quot;</span><span class="w"> </span><span class="na">name =</span><span class="w"> </span><span class="s">&quot;impedance_controller&quot;</span><span class="w"> </span><span class="na">output =</span><span class="w"> </span><span class="s">&quot;screen&quot;</span><span class="nt">&gt;</span>
@@ -217,7 +217,7 @@ If we would like to run the launch file <code class="docutils literal notranslat
 <p>Details on all possible tags and explenation can be found <a class="reference external" href="http://wiki.ros.org/roslaunch/XML">here</a>.
 Still here I post important aspects.</p>
 <section id="the-node-tag">
-<h3>The <code class="docutils literal notranslate"><span class="pre">node</span></code> tag<a class="headerlink" href="#the-node-tag" title="Link to this heading">#</a></h3>
+<h3>The <code class="docutils literal notranslate"><span class="pre">node</span></code> tag<a class="headerlink" href="#the-node-tag" title="Link to this heading">¶</a></h3>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;node</span>
 <span class="w">    </span><span class="na">pkg  =</span><span class="w"> </span><span class="s">&quot;package_name&quot;</span>
 <span class="w">    </span><span class="na">type =</span><span class="w"> </span><span class="s">&quot;executable_file&quot;</span>
@@ -295,7 +295,7 @@ Still here I post important aspects.</p>
     </aside>
   </div>
 </div><script src="../../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
     <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
     <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>

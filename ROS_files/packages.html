@@ -5,11 +5,11 @@
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
 
-    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+    <!-- Generated with Sphinx 7.3.7 and Furo 2024.01.29 -->
         <title>Starting packages - Matteo Dalle Vedove documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
-    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=eafc0fe6" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
     
@@ -193,14 +193,14 @@
         </div>
         <article role="main">
           <section id="starting-packages">
-<h1>Starting packages<a class="headerlink" href="#starting-packages" title="Link to this heading">#</a></h1>
+<h1>Starting packages<a class="headerlink" href="#starting-packages" title="Link to this heading">¶</a></h1>
 <p>To use ROS firstly we need to enable the <strong>ROS core</strong>:</p>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>roscore
 </pre></div>
 </div>
 </section>
 <section id="packages">
-<h1>Packages<a class="headerlink" href="#packages" title="Link to this heading">#</a></h1>
+<h1>Packages<a class="headerlink" href="#packages" title="Link to this heading">¶</a></h1>
 <p>In order to <strong>start</strong> any other <strong>package</strong>:</p>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>roslaunch<span class="w"> </span><span class="o">[</span>package_name<span class="o">]</span><span class="w"> </span><span class="o">[</span>script.launch,<span class="w"> </span>optional<span class="o">]</span>
 </pre></div>
@@ -218,7 +218,7 @@
 </pre></div>
 </div>
 <section id="catkin">
-<h2>Catkin<a class="headerlink" href="#catkin" title="Link to this heading">#</a></h2>
+<h2>Catkin<a class="headerlink" href="#catkin" title="Link to this heading">¶</a></h2>
 <p>All packages must lie inside a so called <strong>catkin workspace</strong>; we can go there by calling <code class="docutils literal notranslate"><span class="pre">roscd</span></code> without argument.
 Assumed that <code class="docutils literal notranslate"><span class="pre">~/catkin_ws</span></code> is the root of the ROS workspace, inside it we should found a folder <code class="docutils literal notranslate"><span class="pre">src</span></code> that will contain all custom packages.</p>
 <p>We can look for all available packages with</p>
@@ -231,7 +231,7 @@ Assumed that <code class="docutils literal notranslate"><span class="pre">~/catk
 </div>
 </section>
 <section id="launch-files">
-<h2>Launch files<a class="headerlink" href="#launch-files" title="Link to this heading">#</a></h2>
+<h2>Launch files<a class="headerlink" href="#launch-files" title="Link to this heading">¶</a></h2>
 <p>The folder <code class="docutils literal notranslate"><span class="pre">launch</span></code> of each package contains tags and parameters for starting it. Example:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;launch&gt;
   &lt;!-- turtlebot_teleop_key already has its own built in velocity smoother --&gt;
@@ -253,7 +253,7 @@ Assumed that <code class="docutils literal notranslate"><span class="pre">~/catk
 </section>
 </section>
 <section id="creating-a-package">
-<h1>Creating a package<a class="headerlink" href="#creating-a-package" title="Link to this heading">#</a></h1>
+<h1>Creating a package<a class="headerlink" href="#creating-a-package" title="Link to this heading">¶</a></h1>
 <p>In order to create a package:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">catkin_create_pkg</span> <span class="p">[</span><span class="n">package_name</span><span class="p">]</span> <span class="p">[</span><span class="n">dependencies</span><span class="p">]</span>
 </pre></div>
@@ -298,7 +298,7 @@ Dependencies can be set afterward, but be specifying them here the <code class="
     </aside>
   </div>
 </div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
