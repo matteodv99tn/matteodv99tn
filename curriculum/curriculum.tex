@@ -1,0 +1,197 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[italian]{babel}
+\input{configuration.tex}
+
+% \usepackage[defaultfam,light,tabular,lining]{montserrat}
+% \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+% \allowdisplaybreaks
+
+\usepackage[osf,sc]{mathpazo}
+\usepackage[scaled=0.90]{helvet}
+\usepackage[scaled=0.85]{beramono}
+
+\newif\ifcomplete
+\completetrue
+% \completefalse
+
+
+\begin{document}
+
+    \def\name{Matteo}
+    \def\surname{Dalle Vedove}
+    \makeatletter
+    \begin{topheader}
+        \ifcomplete e-mail & matteodv99tn@gmail.com \\ \fi
+        \ifcomplete indirizzo & via San Biagio, n. 14, Borghetto all'Adige (TN), CAP 38063, Italia \\ \fi
+        \ifcomplete telefono & (+39) 349 843 9679 \\ \fi
+        \ifcomplete nascita & 12 maggio 1999, Rovereto \\ \fi
+        \ifcomplete nazionalità & italiana \\ \fi
+        \ifcomplete codice fiscale & DLLMTT99E12H612K \\ \fi
+        LinkedIn & \href{https://www.linkedin.com/in/matteo-dalle-vedove-71a290239/}{\textit{Matteo Dalle Vedove}} \\
+        GitHub & \href{https://github.com/matteodv99tn}{\textit{matteodv99tn}} \\
+    \end{topheader}
+
+    \header{Istruzione}
+
+    \begin{study}
+        {Dottorato in \textit{Robotics and Intelligent Machines}}
+        {Università degli Studi di Trento}
+        {Trento}
+        {2023-2026}
+        Percorso di dottorato di interesse nazionale in \textit{Robotics and Intelligent Machines}, curricola \textit{Industry 4.0}, con sede amministrativa presso l'universita' di Genova e sede operativa presso l'universita' di Trento. \\
+        Supervisori: Fontanelli Daniele e Saveriano Matteo.
+    \end{study}
+
+    \begin{study}
+        {Ingegneria Meccatronica}
+        {Università degli Studi di Trento}
+        {Trento}
+        {2021-2023}
+        Laurea magistrale in \textit{Mechatronics Engineering}, curricola \textit{Electronics and Robotics}, del Dipartimento di Ingegneria Industriale.
+
+        Maturati particolari interessi nell'ambito dell'identificazione di sistemi, controllo, programmazione, metodi numerici e simulazione.
+
+        Votazione di uscita: 110 con lode. Titolo della tesi: \textit{Analysis and Programming of Delta Robot for Automatic Waste Sorting}.
+    \end{study}
+
+    \begin{study}
+        {Ingegneria Industriale}
+        {Università degli Studi di Trento}
+        {Trento}
+        {2018-2021}
+        Laurea triennale in \textit{Ingegneria Industriale}, curricola \textit{metodologico meccatronica}. del Dipartimento di Ingegneria Industriale.
+
+        Votazione di uscita: 102 su 110. Titolo della tesi: \textit{Analisi di circuiti ad applicazione digitale in tecnologia c-MOS}.
+    \end{study}
+
+    \begin{study}
+        {Liceo Scientifico - opzione Scienze Applicate}
+        {Liceo Antonio Rosmini}
+        {Rovereto, TN}
+        {2012-2018}
+        Votazione di uscita: 80 su 100.
+    \end{study}
+
+
+    \header{Esperienze lavorative}
+    \begin{work}
+        {Tirocinio finalizzato alla stesura della tesi}
+        {BM Group - Polytec}
+        {Condino, TN}
+        {luglio-ottobre 2023}
+        Principali attività svolte nel settore della programmazione PLC (principalmente \textit{structured text} e \textit{ladder diagrams}) nell'ambiente di sviluppo \textit{Codesys} per la gestione della logica di una stazione robotizzata e la pianificazione dei movimenti di un robot delta per la cernita di rifiuti nel settore del riciclo del metallo.
+    \end{work}
+
+    \begin{work}
+        {Collaboratore Didattico}
+        {Fondazione Museo Civico di Rovereto}
+        {Rovereto, TN}
+        {2019-2023}
+        Insegnante di robotica per ragazzi dai 6 ai 15 anni. Principali attività svolte e competenze acquisite:
+        \begin{itemize}
+            \item insegnamento del linguaggio di programmazione a blocchi con software proprietari per robot \textit{LEGO}, modelli \textit{Mindstorm EV3} e \textit{SPIKE Prime}.
+        \end{itemize}
+        Partecipazione alla competizione internazionale \textit{First Lego League} come arbitro nazionale:
+        \begin{itemize}
+            \item organizzazione e gestione di competizioni nazionali di robotica;
+            \item valutazione delle performance di squadre di ragazzi dagli 8 ai 16 anni.
+        \end{itemize}
+    \end{work}
+
+    \header{Progetti}
+    \begin{project}
+        {Industrial AI Challenge}
+        {2022}
+        Competizione universitaria di squadra organizzata da \textit{Hub Innovazione Trentino} nell'ambito dell'intelligenza artificiale in scopi industriali. \\
+        La sfida, proposta dall'azienda \textit{Melinda}, è quella di ottimizzare il processo di conservazione delle mele in modo da diminuire i costi legati all'energia.
+
+        Nella squadra il mio compito principale è stato quello di effettuare system identification in modo da ricreare un ambiente virtuale per l'allenamento di un agente di reinforcement learning.
+    \end{project}
+
+    \begin{project}
+        {ProtoChallenge}
+        {2020}
+        Competizione universitaria di squadra organizzata da \textit{Hub Innovazione Trentino} nell'ambito dell'additive manufacturing. \\
+        La sfida, proposta dall'azienda \textit{PAMA}, è quella di ottimizzare topologicamente una testa universale che fornisce due assi rotazionali di posizionamento per una alesatrice industriale. Le principali competenze acquisite sono:
+        \begin{itemize}
+            \item apprendimento del software \textit{NTopology} per lo studio e ottimizzazione topologica di componenti meccanici;
+            \item programmi per l'analisi ad elementi finiti FEM.
+        \end{itemize}
+        Obiettivi raggiunti:
+        \begin{itemize}
+            \item riduzione della massa del pezzo del 45\%, mantenendo una rigidezza complessiva nel range prefissato $\pm$10\%;
+            \item miglioramento della geometrica ai fini di aumentare la dissipazione di calore;
+            \item stimata una riduzione del 60-70\% dei tempi di produzione del componente.
+        \end{itemize}
+    \end{project}
+
+    \begin{project}
+        {First Lego League}
+        {2014-2018}
+        Competizione internazionale di robotica, partecipazione con una squadra scolastica. Nelle prime due edizioni partecipazione attiva alla gara come membro, gli anni successivi come mentore delle squadre più giovani; principali competenze acquisite:
+        \begin{itemize}
+            \item costruzione e programmazione di robot \textit{LEGO Mindstorm EV3};
+            \item redazione di progetti scientifici inerenti a tematiche di rilievo, proposte a tutte le squadre da parte dell'organizzazione.
+        \end{itemize}
+        Riconoscimenti ricevuti:
+        \begin{itemize}
+            \item terzo posto a livello nazionale, edizione FLL2016;
+            \item premio internazionale \textit{Out of the Box} alla sfida \textit{Asia Open Pacific}, tenutasi a Sydney, edizione FLL2017;
+            \item premio \textit{Oltre la Robotica} insignito dal Ministero Italiano dell'Istruzione, edizione FLL2017.
+        \end{itemize}
+    \end{project}
+
+    \header{COMPETENZE}
+    \begin{competence}{Programmazione}
+        \begin{itemize}
+            \item programmazione avanzata in linguaggio \textit{C} e \textit{C++}, con particolare attenzione allo sviluppo di algoritmi numerici e sistemi embedded. Conoscenza dei paradigmi di programmazione ad oggetti. Esperienza di sviluppo di interfacce hardware e controllori nel framework di \textit{ROS2};
+            \item programmazione avanzata in \textit{Python};
+            \item conoscenza medio-avanzata del linguaggio \textit{Matlab};
+            \item conoscenza discreta di calcolo simbolico con software \textit{Maple} e \textit{Mathematica};
+            \item conoscenza base di scripting in \textit{bash};
+            \item conoscenza discreta di programmazione PLC in ambiente \textit{Codesys};
+            \item buona conoscenza di redazione di documenti \LaTeX.
+        \end{itemize}
+    \end{competence}
+
+    \begin{competence}{Lingue}
+        \begin{itemize}
+            \item italiano: madrelingua;
+            \item inglese: certificazione \textit{B2 specialistico per ingegneria} sostenuto presso il \textit{CLA} dell'Università di Trento; buon livello di comprensione, comunicazione orale e scrittura, soprattutto nell'ambito di discorsi ingegneristici;
+            \item spagnolo: base.
+        \end{itemize}
+    \end{competence}
+
+    \header{VOLONTARIATO}
+    \begin{project}
+        {Banda Sociale di Ala}
+        {2014-attuale}
+        Suonatore di trombone ed euphonium all'interno della banda sociale comunale. Dal 2019 membro del consiglio direttivo dell'associazione.
+    \end{project}
+
+    \begin{project}
+        {Associazione MindsHub}
+        {2015-2019}
+        Mentor dell'area robotica dell'associazione, in particolare per quanto riguarda l'introduzione alla costruzione e programmazione a blocchi di robot per ragazzi della scuola primaria.
+    \end{project}
+
+
+    \vspace{5mm}
+
+    \noindent
+    \textit{Il sottoscritto, consapevole che – ai sensi dell’art. 76 del D.P.R. 445/2000 – le dichiarazioni mendaci, la
+    falsità negli atti e l’uso di atti falsi sono puniti ai sensi del codice penale e delle leggi speciali, dichiara che le
+    informazioni rispondono a verità. \vspace{2mm} \\
+    Il sottoscritto in merito al trattamento dei dati personali esprime il proprio consenso al trattamento degli
+    stessi nel rispetto delle finalità e modalità di cui al d.lgs. n. 196/2003.}
+
+    \vspace{4mm}
+    \begin{flushright}
+        Matteo Dalle Vedove \\
+        Trento, \today \\
+        \ifcomplete \includegraphics[width=5cm]{signature} \fi
+    \end{flushright}
+
+
+
+\end{document}

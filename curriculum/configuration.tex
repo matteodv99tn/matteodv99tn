@@ -1,0 +1,86 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[width=18.00cm, height=25.00cm]{geometry}
+\usepackage{lipsum}
+\usepackage{ragged2e}
+\reversemarginpar
+\usepackage{marginnote}
+\usepackage{paracol}
+\usepackage{array}
+\usepackage{hyperref}
+
+\pagestyle{empty}
+\setcolumnwidth{5.3cm}
+
+\newcommand\headerstyle{\bfseries}
+
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newcommand{\field}[5]{\vspace{2mm} \begin{paracol}{2}
+        \noindent
+        #1 \\ \textit{#2}
+        \switchcolumn \noindent
+        {\bfseries\Large #3} \\
+        {\bfseries #4} \vspace{1mm} \\ \noindent
+        #5
+\end{paracol} \vspace{3mm}}
+
+\newcommand{\progetto}[3]{\vspace{2mm} \begin{paracol}{2}
+        \noindent
+        \textbf{#1} \\ \textit{#2}
+        \switchcolumn \noindent#3
+\end{paracol}}
+
+
+\newenvironment{topheader} {
+    \begin{tabular}{R{5cm} l}
+    {\bfseries \LARGE \name} & {\bfseries \LARGE \surname} \\
+} {
+    \end{tabular}
+}
+
+\newcommand\header[1]{\vspace{5mm}\noindent \rule{\textwidth}{1pt} \\ {\bfseries \MakeUppercase{#1}} \vspace{3mm}\\}
+
+\newenvironment{twocolentry}[1]{
+    \begin{paracol}{2}
+        #1
+        \switchcolumn\noindent
+} {
+    \end{paracol} \vspace{3mm}
+}
+
+\newenvironment{study}[4]{
+    \begin{twocolentry}
+        {\noindent #3 \\ {\itshape #4}}
+        {\noindent\bfseries\Large#1} \\
+        {\bfseries #2} \vspace{2mm} \\
+} {
+    \end{twocolentry}
+}
+
+\newenvironment{work}[4]{
+    \begin{twocolentry}
+        {\noindent #3 \\ {\itshape #4}}
+        {\noindent\bfseries\Large#1} \\
+        {\bfseries #2} \vspace{2mm} \\
+} {
+    \end{twocolentry}
+}
+
+\newenvironment{project}[2]{
+    \begin{twocolentry}
+        {\noindent {\bfseries#1} \\ {\itshape#2}}
+} {
+    \end{twocolentry}
+}
+
+\newenvironment{competence}[1]{
+    \begin{twocolentry}
+        {\noindent {\bfseries#1}}
+} {
+    \end{twocolentry}
+}
