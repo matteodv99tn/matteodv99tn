@@ -1,26 +1,40 @@
-# Welcome
-Hi, I'm Matteo Dalle Vedove.
+# 👋 Hi, I'm Matteo Dalle Vedove.
 
-I'm currently pursuing a PhD in robotics at the University under the supervision of professors Daniele Fontanelli and Matteo Saveriano.
+In a nutshell:
 
-In 2023 I graduated in Mechatronics Engineering, curricula _Electronics and Robotics_, at the Department of Industrial Engineering of the University of Trento with the degree 110 cum laude.
+- 👨‍🎓 PhD student of **robotics** at University of Trento under the supervision of prof. Matteo Saveriano and Daniele Fontanelli. My research focuses on **Learning from Demonstration**;
+- 🤖 robotics enthusiast since childhood. Currently, I rely on my good knowledge [ROS2](https://github.com/matteodv99tn/nvim) to realise all my ideas and experiments;
+- 👨‍💻 passionate `C++` developer (of course, for 🤖), and I love studying to make my code _fast_ (I really like performance). I also know some `Python` and `Matlab`. Hopefully, I will have time to learn some `rust`🤞;
+- ‍💻 Linux fan (I use Arch, BTW). ⚙️ Here you may find my [dotfile](https://github.com/matteodv99tn/dotfiles) and [neovim](https://github.com/matteodv99tn/nvim) configuration!
+- 🎓 MSc in Mechatronics Engineering, University of Trento. 
 
-I have lots of passion for programming, especially at low level in both C and C++. I'm mostly focused on numerical and robotics application.
-For robotics purposes I have a good confidence with the ROS2 framework.
 
-Programming-wise, I also know how to code in MATLAB and Python, and I also tried Rust, a language that I really like but unfortunately have no time to deep dive into.
+## 📰 My works
 
-<!--
-**matteodv99tn/matteodv99tn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You may find me in [Google Scholar](https://scholar.google.com/citations?user=iBu3YdkAAAAJ), but this are my latest works:
 
-Here are some ideas to get you started:
+- [MeshDMP: Motion Planning on Discrete Manifolds using Dynamic Movement Primitives](https://arxiv.org/abs/2410.15123);
+- [A Passivity-Based Variable Impedance Controller for Incremental Learning of Periodic Interactive Tasks](https://scholar.google.com/citations?user=iBu3YdkAAAAJ);
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👨‍💻 My projects
+
+- [z1_ros2](https://github.com/idra-lab/z1_ros2): ROS2 package for the [Unitree Z1](https://www.unitree.com/z1) manipulator for mobile robots;
+
+## 📚 Interesting books
+
+If you like differntial geometry:
+
+- [Differential Geometry of Curves and Surfaces](http://www2.ing.unipi.it/griff/files/dC.pdf), Manfredo Perdigao do Carmo;
+- [Riemmanian Geometry](https://link.springer.com/book/9780817634902), Manfredo Perdigao do Carmo;
+
+If you like `C++` software design:
+
+- [Hands-On Design Patterns with C++: Solve common C++ problems with modern design patterns and build robust applications](https://www.amazon.com/Hands-Design-Patterns-reusable-maintainable/dp/1788832566), Fedor G. Pikus;
+- [Design Patterns in Modern C++20: Reusable Approaches for Object-Oriented Software Design](https://www.amazon.com/Design-Patterns-Modern-Approaches-Object-Oriented/dp/1484272943), Dmitri Nesteruk;
+
+## 🔗 My contacts and links
+
+- [GitHub profile](https://github.com/matteodv99tn/);
+- [LinkdIn](https://www.linkedin.com/in/matteo-dalle-vedove-71a290239/);
+
+[![](https://github-readme-stats.vercel.app/api?username=matteodv99tn&theme=buefy)](https://github.com/matteodv99tn/)
