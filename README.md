@@ -38,3 +38,10 @@ If you like `C++` software design:
 - [LinkdIn](https://www.linkedin.com/in/matteo-dalle-vedove-71a290239/);
 
 [![](https://github-readme-stats.vercel.app/api?username=matteodv99tn&theme=buefy)](https://github.com/matteodv99tn/)
+
+
+## 📇 My guides
+
+This are personal notes, but you may find them useful
+- [Bash script to automatically build and test C++ on file save](Guides/automated_build.md);
+
