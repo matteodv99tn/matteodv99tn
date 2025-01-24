@@ -44,4 +44,5 @@ If you like `C++` software design:
 
 This are personal notes, but you may find them useful
 - [Bash script to automatically build and test C++ on file save](Guides/automated_build.md);
+- [Useful Docker Scripts](Guides/docker_scripts.md);
 
